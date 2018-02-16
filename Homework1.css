@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-align: center;
     content: #ebebed;
+    font-size: 24px;
 }
 body{
     margin: auto;
@@ -12,6 +13,7 @@ body{
 }
 
 header{
+    margin-top: 5px;
     background: #eee;
     text-align: center;
     padding: 20px;
@@ -29,7 +31,7 @@ nav{
 section {
     float: left;
     width: 475px;
-    height: 250px;
+    height: 286px;
     padding: 20px;
     margin-top: 5px;
     margin-left: 0px;
@@ -45,19 +47,17 @@ section {
 }
 
 
-#division {
-    padding: 5px;
-
+.middleSection {
     margin-top: 5px;
+    padding: 2px;
     background: #eee;
 }
 
-#p{
-    padding: 10px;
-    margin-top: 5px;
-    background: #eee;
-    border: 1px solid;
-}
+/*#p{*/
+    /*padding: 5px;*/
+    /*margin-top: 5px;*/
+    /*background: #eee;*/
+/*}*/
 
 aside {
     float: right;
@@ -65,7 +65,7 @@ aside {
     margin-top: 5px;
     background: #eee;
     border: 1px solid;
-    height: 250px;
+    height: 286px;
     margin-bottom: 10px;
 }
 
